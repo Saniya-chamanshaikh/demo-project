@@ -1,0 +1,18 @@
+using system;
+using Systam.Collections.Generic;
+using System.linq;
+uaing System.Text;
+namespace ConsoleApplication15
+{
+    class program
+    {
+        static void Main(string[]args)
+        {
+            System.Console.WriteLine("Current directory:{0}",Environment.CurrentDirectory);
+            System.Console.WriteLine("Current Version:{0}",Environment.OSVersion);
+            System.Console.WriteLine("machine name:{0}",Environment.MachineName);
+            System.Console.WriteLine("physical memory:{0}",Environment.WorkingSet);
+            System.Console.WriteLine("time since last bootup:{0}",Environment.TickCount);Console.ReadLine();
+        }
+    }
+}
